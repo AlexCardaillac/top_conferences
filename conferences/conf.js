@@ -142,5 +142,23 @@ conferences = [{
         "cfp": "15 September 2023",
         "date": "May 13-17, 2024",
         "link": "https://2024.ieee-icra.org"
+    },{
+        "hindex": 123,
+        "abbrev": "ICASSP 2024",
+        "title": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+        "location": "Seoul, Korea",
+        "flag": "kr",
+        "cfp": "13 September 2023",
+        "date": "April 14-19, 2024",
+        "link": "https://2024.ieeeicassp.org"
+    },{
+        "hindex": 123,
+        "abbrev": "ICASSP 2025",
+        "title": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+        "location": "Hyderabad, India",
+        "flag": "in",
+        "cfp": "13 September 2024 (TBA)",
+        "date": "April 14-19, 2025 (TBA)",
+        "link": "https://2025.ieeeicassp.org"
     }
 ]

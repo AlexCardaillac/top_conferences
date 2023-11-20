@@ -209,4 +209,5 @@ window.onload=function(){
         }
         catch(e){}
     });
+    makeSortable_by_SubmissionDeadline();
 }
