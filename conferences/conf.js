@@ -160,5 +160,50 @@ conferences = [{
         "cfp": "13 September 2024 (TBA)",
         "date": "April 14-19, 2025 (TBA)",
         "link": "https://2025.ieeeicassp.org"
+    },{
+        "hindex": 95,
+        "abbrev": "WACV 2024",
+        "title": "IEEE/CVF Winter Conference on Applications of Computer Vision",
+        "location": "Waikoloa, Hawaii",
+        "flag": "us",
+        "cfp": "28 June 2023",
+        "date": "January 4-8, 2024",
+        "link": "https://wacv2024.thecvf.com/"
+    },{
+        "hindex": 76,
+        "abbrev": "CoRL 2024",
+        "title": "Conference on Robot Learning",
+        "location": "Munich, Germany",
+        "flag": "de",
+        "cfp": "8 June 2024 (TBA)",
+        "date": "November 6-9, 2024 (TBA)",
+        "link": "https://www.corl2023.org/"
+    },{
+        "hindex": "/",
+        "abbrev": "AUV 2024",
+        "title": "IEEE Autonomous Underwater Vehicle Symposium",
+        "location": "Boston, USA",
+        "flag": "us",
+        "cfp": "29 April 2024 (TBA)",
+        "date": "September 19-21, 2024 (TBA)",
+        "link": ""
+    },{
+        "hindex": "/",
+        "abbrev": "MIW 2024",
+        "title": "International Marine Imaging Workshops",
+        "location": "Monterey, USA",
+        "flag": "us",
+        "cfp": "29 April 2024 (TBA)",
+        "date": "October 7-10, 2024 (TBA)",
+        "link": "https://miw2024.org/pages/program.html"
+    },{
+        "hindex": "/",
+        "abbrev": "UT25",
+        "title": "International Symposium on Underwater Technology",
+        "location": "",
+        "flag": "us",
+        "cfp": "1 September 2024 (TBA)",
+        "date": "March 6-9, 2025 (TBA)",
+        "link": ""
     }
 ]
