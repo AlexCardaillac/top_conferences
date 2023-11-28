@@ -223,5 +223,23 @@ conferences = [{
         "cfp": "25 January 2024 (TBA)",
         "date": "July 28-01, 2024",
         "link": "https://s2024.siggraph.org/"
+    },{
+        "hindex": 91,
+        "abbrev": "AISTATS 2024",
+        "title": "International Conference on Artificial Intelligence and Statistics",
+        "location": "Valencia, Spain",
+        "flag": "es",
+        "cfp": "16 October 2023",
+        "date": "May 02-04, 2024",
+        "link": "http://aistats.org/aistats2024/"
+    },{
+        "hindex": 84,
+        "abbrev": "ACM MM 2024",
+        "title": "ACM MULTIMEDIA",
+        "location": "Melbourne, Australia",
+        "flag": "au",
+        "cfp": "8 April 2024",
+        "date": "October 28-01, 2024",
+        "link": "https://2024.acmmm.org/"
     }
 ]

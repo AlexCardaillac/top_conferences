@@ -1,4 +1,4 @@
-function generateTable(table) {
+function generateConfTable(table) {
     let tbody = table.tBodies[0];
     for (let conf of conferences) {
         let row = tbody.insertRow();
@@ -18,8 +18,31 @@ function generateTable(table) {
     }
 }
 
-function getHIndex(x){
-    let td = x.querySelectorAll('td')[0]
+function generateJourTable(table) {
+    let tbody = table.tBodies[0];
+    for (let conf of journals) {
+        let row = tbody.insertRow();
+        let cell = row.insertCell();
+        cell.innerText = conf["hindex"];
+        cell.scope="row"
+        cell = row.insertCell();
+        cell.innerText = conf["iscore"];
+        cell = row.insertCell();
+        cell.innerText = conf["title"];
+        cell = row.insertCell();
+        cell.innerText = conf["publisher"];
+        cell = row.insertCell();
+        cell.innerHTML = `<a href="${conf["link"]}">${conf["link"]}</a>`;
+    }
+}
+
+function getScore(x, is_hindex){
+    if (is_hindex) {
+        var td = x.querySelectorAll('td')[0]
+    } else {
+        var td = x.querySelectorAll('td')[1]
+    }
+
     let delta = 0;
 
     try {
@@ -35,16 +58,22 @@ function getHIndex(x){
 }
 
 let hi_toggle = false;
-function sortHIndex() {
+let is_toggle = false;
+function sortScore(is_hindex) {
     let table = document.getElementsByTagName("table")[0];
     let tbody = table.tBodies[0];
     let rows = tbody.getElementsByTagName("tr");
     rows = Array.prototype.slice.call(rows,0);
 
+    let toggle = is_toggle;
+    if (is_hindex) {
+        toggle = hi_toggle;
+    }
+
     rows.sort(function(x,y){
-        let tx = getHIndex(x);
-        let ty = getHIndex(y);
-        if (hi_toggle) {
+        let tx = getScore(x, is_hindex);
+        let ty = getScore(y, is_hindex);
+        if (toggle) {
             return tx - ty;
         }
         return ty - tx;
@@ -53,7 +82,11 @@ function sortHIndex() {
     for(let i = 0; i < rows.length; i++){
         tbody.appendChild(rows[i]);
     }
-    hi_toggle = !hi_toggle;
+    if (is_hindex) {
+        hi_toggle = !hi_toggle;
+    } else {
+        is_toggle = !is_toggle;
+    }
 }
 
 function getTime(x, is_conf){
@@ -107,10 +140,9 @@ function sortTime(is_conf) {
     let rows = tbody.getElementsByTagName("tr");
     rows = Array.prototype.slice.call(rows, 0);
 
+    let toggle = sd_toggle
     if (is_conf) {
         toggle = sc_toggle
-    } else {
-        toggle = sd_toggle
     }
 
     rows.sort(function(x,y){
@@ -134,15 +166,16 @@ function sortTime(is_conf) {
 
 function onClick(table){
     let tds = table.tHead.querySelectorAll('th');
-    tds[3].onclick = () => sortTime(false);
-    tds[4].onclick = () => sortTime(true);
-    tds[0].onclick = sortHIndex;
+    tds[0].onclick = () => sortScore(true);
+    if (is_conf_page) {
+        tds[3].onclick = () => sortTime(false);
+        tds[4].onclick = () => sortTime(true);
+    } else {
+        tds[1].onclick = () => sortScore(false);
+    }
 }
 
-window.onload=function(){
-    let table = document.querySelector("table");
-    generateTable(table);
-    onClick(table);
+function verifyDeadlines() {
     document.querySelectorAll('tr').forEach(function(item) {
         let tds = item.querySelectorAll('td'),
             td = tds[3]
@@ -162,5 +195,21 @@ window.onload=function(){
         }
         catch(e){}
     });
-    sortTime(false);
+}
+
+var is_conf_page = true;
+window.onload=function(){
+    if (document.URL.includes("journals")) {
+        is_conf_page = false;
+    }
+    let table = document.querySelector("table");
+    if (is_conf_page) {
+        generateConfTable(table);
+        verifyDeadlines();
+        sortTime(false);
+    } else {
+        generateJourTable(table);
+        sortScore(true);
+    }
+    onClick(table);
 }
