@@ -205,5 +205,23 @@ conferences = [{
         "cfp": "1 September 2024 (TBA)",
         "date": "March 6-9, 2025 (TBA)",
         "link": ""
+    },{
+        "hindex": "/",
+        "abbrev": "SIGGRAPH Asia 2024",
+        "title": "ACM SIGGRAPH",
+        "location": "Tokyo, Japan",
+        "flag": "jp",
+        "cfp": "24 May 2024 (TBA)",
+        "date": "December 3-6, 2024",
+        "link": "https://asia.siggraph.org/2023/about-the-event/siggraph-asia-2024/"
+    },{
+        "hindex": "/",
+        "abbrev": "SIGGRAPH 2024",
+        "title": "ACM SIGGRAPH",
+        "location": "Denver, USA",
+        "flag": "us",
+        "cfp": "25 January 2024 (TBA)",
+        "date": "July 28-01, 2024",
+        "link": "https://s2024.siggraph.org/"
     }
 ]

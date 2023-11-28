@@ -1,0 +1,19 @@
+﻿th, td {
+  text-align: center;
+  font-size:16px;
+  vertical-align: middle!important;
+}
+
+#header {
+  padding-top:20px;
+  padding-bottom:5px;
+}
+
+.sortable {
+  text-decoration:underline;
+}
+
+table {
+  table-layout: fixed;
+  word-wrap: break-word;
+}

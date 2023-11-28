@@ -1,24 +1,26 @@
 function generateTable(table) {
+    let tbody = table.tBodies[0];
     for (let conf of conferences) {
-        let row = table.insertRow();
+        let row = tbody.insertRow();
         let cell = row.insertCell();
         cell.innerText = conf["hindex"];
-        cell.style = "width:8%;text-align:center;"
+        cell.scope="row"
+        // cell.style = "width:8%;"
         cell = row.insertCell();
         cell.innerHTML = `<strong>${conf["abbrev"]}</strong><strong>:</strong>&nbsp;${conf["title"]}`;
-        cell.style = "width:20%;"
+        // cell.style = "width:20%;"
         cell = row.insertCell();
         cell.innerHTML = `${conf["location"]} <img style="vertical-align:middle;" src="../pics/${conf["flag"]}.png">`
-        cell.style = "width:20%;"
+        // cell.style = "width:20%;"
         cell = row.insertCell();
         cell.innerText = conf["cfp"];
-        cell.style = "width:16%;"
+        // cell.style = "width:16%;"
         cell = row.insertCell();
         cell.innerText = conf["date"];
-        cell.style = "width:16%;"
+        // cell.style = "width:16%;"
         cell = row.insertCell();
         cell.innerHTML = `<a href="${conf["link"]}">${conf["link"]}</a>`;
-        cell.style = "width:20%;"
+        // cell.style = "width:10%;"
         // for (key in conf) {
         //     let cell = row.insertCell();
         //     let text = document.createTextNode(conf[key]);
@@ -155,11 +157,14 @@ function makeSortable_by_SubmissionDeadline() {
 
 var sc_toggle = false;
 function makeSortable_by_ConferenceDate() {
+    console.log("makeSortable_by_ConferenceDate")
     var table=document.getElementsByTagName("table")[0];
     var flag=false;
 
     var tbody=table.tBodies[0];
+    console.log(tbody)
     var rows=tbody.getElementsByTagName("tr");
+    console.log(rows)
     rows=Array.prototype.slice.call(rows,0);
 
     rows.sort(function(x,y){
@@ -179,7 +184,7 @@ function makeSortable_by_ConferenceDate() {
 function get_on_click(table){
     // var table=document.getElementsByTagName("table")[0];
     var t_hand=document.getElementsByTagName('tr')[0];
-    var tds = t_hand.querySelectorAll('td');
+    var tds = t_hand.querySelectorAll('th');
     tds[3].onclick = makeSortable_by_SubmissionDeadline;
     tds[4].onclick = makeSortable_by_ConferenceDate;
     tds[0].onclick = makeSortable_by_H_Index;
