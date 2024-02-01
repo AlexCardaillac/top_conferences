@@ -2,6 +2,15 @@ conferences = [{
         "hindex": 212,
         "abbrev": "AAAI 2024",
         "title": "AAAI Conference on Artificial Intelligence",
+        "location": "Vancouver, Canada",
+        "flag": "ca",
+        "cfp": "8 August 2023",
+        "date": "February 22-25, 2024",
+        "link": "https://aaai.org/aaai-conference"
+    },{
+        "hindex": 212,
+        "abbrev": "AAAI 2024",
+        "title": "AAAI Conference on Artificial Intelligence",
         "location": "Philadelphia, USA",
         "flag": "us",
         "cfp": "8 August 2024 (TBA)",
@@ -13,17 +22,17 @@ conferences = [{
         "title": "Asian Conference on Computer Vision",
         "location": "Hanoi, Vietnam",
         "flag": "vi",
-        "cfp": "1 July 2024 (TBA)",
+        "cfp": "2 July 2024",
         "date": "December 08-12, 2024",
         "link": "https://accv2024.org/"
     },{
         "hindex": 77,
         "abbrev": "BMVC 2024",
         "title": "British Machine Vision Conference",
-        "location": "(TBA), UK",
+        "location": "Glasgow, UK",
         "flag": "uk",
         "cfp": "12 May 2024 (TBA)",
-        "date": "November 20-24, 2024 (TBA)",
+        "date": "November 25-28, 2024",
         "link": "https://www.bmva.org/bmvc"
     },{
         "hindex": 309,
@@ -32,7 +41,7 @@ conferences = [{
         "location": "Vancouver, Canada",
         "flag": "ca",
         "cfp": "11 May 2024 (TBA)",
-        "date": "December 10-16, 2024 (TBA)",
+        "date": "December 09-15, 2024",
         "link": "https://nips.cc/Conferences/2024"
     },{
         "hindex": "/",
@@ -58,7 +67,7 @@ conferences = [{
         "title": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
         "location": "Abu Dhabi, UAE",
         "flag": "ae",
-        "cfp": "1 March 2024 (TBA)",
+        "cfp": "1 March 2024",
         "date": "October 14-18, 2024",
         "link": "http://iros2024-abudhabi.org"
     },{
@@ -85,7 +94,7 @@ conferences = [{
         "title": "Robotics: Science and Systems",
         "location": "Delft, Netherlands",
         "flag": "nl",
-        "cfp": "3 February 2024 (TBA)",
+        "cfp": "02 February 2024",
         "date": "July 15-19, 2024",
         "link": "https://roboticsconference.org"
     },{
@@ -94,7 +103,7 @@ conferences = [{
         "title": "International Conference on Machine Learning",
         "location": "Vienna, Austria",
         "flag": "at",
-        "cfp": "26 January 2024 (TBA)",
+        "cfp": "01 February 2024",
         "date": "July 21-27, 2024",
         "link": "https://icml.cc/Conferences/2024"
     },{
@@ -103,9 +112,9 @@ conferences = [{
         "title": "International Joint Conference on Artificial Intelligence",
         "location": "Jeju Island, South Korea",
         "flag": "kr",
-        "cfp": "11 January 2024 (TBA)",
+        "cfp": "17 January 2024",
         "date": "August 03-09, 2024",
-        "link": "https://www.ijcai.org"
+        "link": "https://ijcai24.org/"
     },{
         "hindex": 422,
         "abbrev": "CVPR 2024",
@@ -158,7 +167,7 @@ conferences = [{
         "location": "Hyderabad, India",
         "flag": "in",
         "cfp": "13 September 2024 (TBA)",
-        "date": "April 14-19, 2025 (TBA)",
+        "date": "April 06-11, 2025",
         "link": "https://2025.ieeeicassp.org"
     },{
         "hindex": 95,
@@ -193,8 +202,8 @@ conferences = [{
         "title": "International Marine Imaging Workshops",
         "location": "Monterey, USA",
         "flag": "us",
-        "cfp": "29 April 2024 (TBA)",
-        "date": "October 7-10, 2024 (TBA)",
+        "cfp": "03 June 2024",
+        "date": "October 7-10, 2024",
         "link": "https://miw2024.org/pages/program.html"
     },{
         "hindex": "/",
@@ -220,7 +229,7 @@ conferences = [{
         "title": "ACM SIGGRAPH",
         "location": "Denver, USA",
         "flag": "us",
-        "cfp": "25 January 2024 (TBA)",
+        "cfp": "25 January 2024",
         "date": "July 28-01, 2024",
         "link": "https://s2024.siggraph.org/"
     },{
