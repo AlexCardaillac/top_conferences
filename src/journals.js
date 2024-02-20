@@ -82,5 +82,35 @@ journals = [{
         "title": "Journal of Intelligent & Robotic Systems",
         "publisher": "Springer",
         "link": "https://www.springer.com/journal/10846"
+    },{
+        "hindex": 96,
+        "iscore": 5.4,
+        "title": "IEEE Transactions on Signal Processing",
+        "publisher": "IEEE",
+        "link": "https://signalprocessingsociety.org/publications-resources/ieee-transactions-signal-processing"
+    },{
+        "hindex": 42,
+        "iscore": 5.4,
+        "title": "IEEE Journal of Oceanic Engineering",
+        "publisher": "IEEE",
+        "link": "https://ieeeoes.org/publications/ieee-journal-of-oceanic-engineering/"
+    },{
+        "hindex": 47,
+        "iscore": 4.3,
+        "title": "Applied Ocean Research",
+        "publisher": "Science Direct",
+        "link": "https://www.sciencedirect.com/journal/applied-ocean-research"
+    },{
+        "hindex": 50,
+        "iscore": 2.9,
+        "title": "Journal of Marine Science and Engineering",
+        "publisher": "MDPI",
+        "link": "https://www.mdpi.com/journal/jmse"
+    },{
+        "hindex": 82,
+        "iscore": 5.0,
+        "title": "Ocean Engineering",
+        "publisher": "Science Direct",
+        "link": "https://www.sciencedirect.com/journal/ocean-engineering"
     }
 ]
