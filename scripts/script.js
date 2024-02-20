@@ -8,7 +8,7 @@ function generateConfTable(table) {
         cell = row.insertCell();
         cell.innerHTML = `<strong>${conf["abbrev"]}</strong><strong>:</strong>&nbsp;${conf["title"]}`;
         cell = row.insertCell();
-        cell.innerHTML = `${conf["location"]} <img style="vertical-align:middle;" src="../pics/${conf["flag"]}.png">`
+        cell.innerHTML = `${conf["location"]} <img style="vertical-align:middle;" src="pics/${conf["flag"]}.png">`
         cell = row.insertCell();
         cell.innerText = conf["cfp"];
         cell = row.insertCell();
