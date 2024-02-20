@@ -5,3 +5,5 @@
 ### Information
 * Last update: 2024/02/20
 * Maintained by Alexandre Cardaillac
+* All the H-Index values are extracted from [Google Scholar](https://scholar.google.com/citations?view_op=top_venues&hl=en)
+* This website is inspired from [this page](https://jackietseng.github.io/conference_call_for_paper/conferences.html)
