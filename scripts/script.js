@@ -175,23 +175,37 @@ function onClick(table){
     }
 }
 
-function verifyDeadlines() {
+function updateDate(td, targetDate) {
+    if (targetDate < Date.now()) {
+        td.style.color = 'gray'
+        td.style.textDecoration = 'line-through'
+    }
+    else if (targetDate - Date.now() < 1000*60*60*24*120) {
+        td.style.color = 'red'
+        td.style.fontWeight = 'bolder'
+        let delta = targetDate - Date.now()
+        let days = Math.floor(delta/(24*60*60*1000))
+        td.innerText = td.innerText + ' (' + days.toString() + ')'
+    }
+}
+function verifyDates() {
     document.querySelectorAll('tr').forEach(function(item) {
         let tds = item.querySelectorAll('td'),
-            td = tds[3]
+            td_deadline = tds[3],
+            td_conf_date = tds[4]
         try {
-            let targetDate = Date.parse(td.innerText)
-            if (targetDate < Date.now()) {
-                td.style.color = 'gray'
-                td.style.textDecoration = 'line-through'
+            let targetDate = Date.parse(td_deadline.innerText)
+            updateDate(td_deadline, targetDate)
+            let tt = td_conf_date.innerText
+            let items = tt.split("-");
+            if (items.length > 1) {
+                let iitems = items[1].split(",");
+                if (iitems.length > 1) {
+                    tt = items[0] + iitems[1];
+                }
             }
-            else if (targetDate - Date.now() < 1000*60*60*24*120) {
-                td.style.color = 'red'
-                td.style.fontWeight = 'bolder'
-                let delta = targetDate - Date.now()
-                let days = Math.floor(delta/(24*60*60*1000))
-                td.innerText = td.innerText + ' (' + days.toString() + ')'
-            }
+            targetDate = Date.parse(tt)
+            updateDate(td_conf_date, targetDate)
         }
         catch(e){}
     });
@@ -205,7 +219,7 @@ window.onload=function(){
     let table = document.querySelector("table");
     if (is_conf_page) {
         generateConfTable(table);
-        verifyDeadlines();
+        verifyDates();
         sortTime(false);
     } else {
         generateJourTable(table);
