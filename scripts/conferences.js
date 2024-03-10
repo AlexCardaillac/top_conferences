@@ -193,9 +193,9 @@ conferences = [{
         "title": "IEEE Autonomous Underwater Vehicle Symposium",
         "location": "Boston, USA",
         "flag": "us",
-        "cfp": "29 April 2024 (TBA)",
-        "date": "September 19-21, 2024 (TBA)",
-        "link": ""
+        "cfp": "28 April 2024",
+        "date": "September 18-20, 2024",
+        "link": "https://auv2024.sites.northeastern.edu/"
     },{
         "hindex": "/",
         "abbrev": "MIW 2024",
