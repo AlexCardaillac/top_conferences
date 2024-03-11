@@ -1,15 +1,6 @@
 conferences = [{
         "hindex": 212,
-        "abbrev": "AAAI 2024",
-        "title": "AAAI Conference on Artificial Intelligence",
-        "location": "Vancouver, Canada",
-        "flag": "ca",
-        "cfp": "8 August 2023",
-        "date": "February 22-25, 2024",
-        "link": "https://aaai.org/aaai-conference"
-    },{
-        "hindex": 212,
-        "abbrev": "AAAI 2024",
+        "abbrev": "AAAI 2025",
         "title": "AAAI Conference on Artificial Intelligence",
         "location": "Philadelphia, USA",
         "flag": "us",
@@ -125,6 +116,24 @@ conferences = [{
         "date": "June 17-21, 2024",
         "link": "https://cvpr.thecvf.com"
     },{
+        "hindex": 228,
+        "abbrev": "ICCV 2025",
+        "title": "IEEE/CVF International Conference on Computer Vision",
+        "location": "Honolulu, Hawaii",
+        "flag": "us",
+        "cfp": "17 March 2025 (TBA)",
+        "date": "October 19-25, 2025",
+        "link": "https://iccv2023.thecvf.com/"
+    },{
+        "hindex": 422,
+        "abbrev": "CVPR 2025",
+        "title": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "location": "Nashville, USA",
+        "flag": "us",
+        "cfp": "10 November 2024 (TBA)",
+        "date": "June 10-17, 2025",
+        "link": "https://cvpr.thecvf.com"
+    },{
         "hindex": "/",
         "abbrev": "Oceans 2024",
         "title": "IEEE OCEANS 2024 Singapore",
@@ -152,6 +161,15 @@ conferences = [{
         "date": "May 13-17, 2024",
         "link": "https://2024.ieee-icra.org"
     },{
+        "hindex": 119,
+        "abbrev": "ICRA 2025",
+        "title": "IEEE Conference on Robotics and Automation",
+        "location": "Atlanta, USA",
+        "flag": "us",
+        "cfp": "15 September 2024 (TBA)",
+        "date": "May 17-23, 2025",
+        "link": "https://2024.ieee-icra.org"
+    },{
         "hindex": 123,
         "abbrev": "ICASSP 2024",
         "title": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
@@ -170,13 +188,22 @@ conferences = [{
         "date": "April 06-11, 2025",
         "link": "https://2025.ieeeicassp.org"
     },{
+        "hindex": 123,
+        "abbrev": "ICASSP 2025",
+        "title": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+        "location": "Hyderabad, India",
+        "flag": "in",
+        "cfp": "13 September 2024 (TBA)",
+        "date": "April 06-11, 2025",
+        "link": "https://2025.ieeeicassp.org"
+    },{
         "hindex": 95,
-        "abbrev": "WACV 2024",
+        "abbrev": "WACV 2025",
         "title": "IEEE/CVF Winter Conference on Applications of Computer Vision",
-        "location": "Waikoloa, Hawaii",
+        "location": "Tucson, USA",
         "flag": "us",
-        "cfp": "28 June 2023",
-        "date": "January 4-8, 2024",
+        "cfp": "28 June 2024 (TBA)",
+        "date": "February 28-04, 2025",
         "link": "https://wacv2024.thecvf.com/"
     },{
         "hindex": 76,
