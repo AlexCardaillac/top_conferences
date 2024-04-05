@@ -17,3 +17,37 @@ table {
   table-layout: fixed;
   word-wrap: break-word;
 }
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .removable-sm {
+    display: none !important;
+  }
+
+  .table td, .table th {
+    padding-left: .4rem !important;
+    padding-right: .4rem !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .removable-l {
+    display: none !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+
+  .removable-xs {
+    display: none !important;
+  }
+}

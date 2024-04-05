@@ -6,14 +6,16 @@ function generateConfTable(table) {
         cell.innerText = conf["hindex"];
         cell.scope="row"
         cell = row.insertCell();
-        cell.innerHTML = `<strong>${conf["abbrev"]}</strong><strong>:</strong>&nbsp;${conf["title"]}`;
+        cell.innerHTML = `<strong>${conf["abbrev"]}</strong><strong>:</strong>&nbsp;<span class="removable-sm">${conf["title"]}</span><a class="removable-l" href="${conf["link"]}">${conf["title"]}</a>`;
         cell = row.insertCell();
+        cell.classList.add("removable-xs");
         cell.innerHTML = `${conf["location"]} <img style="vertical-align:middle;" src="pics/${conf["flag"]}.png">`
         cell = row.insertCell();
         cell.innerText = conf["cfp"];
         cell = row.insertCell();
         cell.innerText = conf["date"];
         cell = row.insertCell();
+        cell.classList.add("removable-sm");
         cell.innerHTML = `<a href="${conf["link"]}">${conf["link"]}</a>`;
     }
 }
@@ -29,9 +31,11 @@ function generateJourTable(table) {
         cell.innerText = conf["iscore"];
         cell = row.insertCell();
         cell.innerText = conf["title"];
+        cell.innerHTML = `<span class="removable-sm">${conf["title"]}</span><a class="removable-l" href="${conf["link"]}">${conf["title"]}</a>`;
         cell = row.insertCell();
         cell.innerText = conf["publisher"];
         cell = row.insertCell();
+        cell.classList.add("removable-sm");
         cell.innerHTML = `<a href="${conf["link"]}">${conf["link"]}</a>`;
     }
 }
