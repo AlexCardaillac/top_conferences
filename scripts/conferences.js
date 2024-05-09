@@ -5,8 +5,8 @@ conferences = [{
         "location": "Philadelphia, USA",
         "flag": "us",
         "cfp": "8 August 2024 (TBA)",
-        "date": "February 20-27, 2025 (TBA)",
-        "link": "https://aaai.org/aaai-conference"
+        "date": "February 25-04, 2025",
+        "link": "https://aaai.org/conference/aaai-25/"
     },{
         "hindex": 60,
         "abbrev": "ACCV 2024",
@@ -22,16 +22,16 @@ conferences = [{
         "title": "British Machine Vision Conference",
         "location": "Glasgow, UK",
         "flag": "uk",
-        "cfp": "12 May 2024 (TBA)",
+        "cfp": "10 May 2024",
         "date": "November 25-28, 2024",
-        "link": "https://www.bmva.org/bmvc"
+        "link": "https://bmvc2024.org/"
     },{
         "hindex": 309,
         "abbrev": "NeurIPS 2024",
         "title": "Conference on Neural Information Processing Systems",
         "location": "Vancouver, Canada",
         "flag": "ca",
-        "cfp": "11 May 2024 (TBA)",
+        "cfp": "15 May 2024",
         "date": "December 09-15, 2024",
         "link": "https://nips.cc/Conferences/2024"
     },{
@@ -43,6 +43,24 @@ conferences = [{
         "cfp": "12 April 2024",
         "date": "September 23-26, 2024",
         "link": "https://halifax24.oceansconference.org"
+    },{
+        "hindex": "/",
+        "abbrev": "Oceans 2025",
+        "title": "IEEE OCEANS 2025 Great Lakes",
+        "location": "Great Lakes, Canada",
+        "flag": "ca",
+        "cfp": "12 April 2025 (TBA)",
+        "date": "September 29-02, 2025",
+        "link": "https://ieeeoes.org/events/oceans-2025-great-lakes/"
+    },{
+        "hindex": "/",
+        "abbrev": "Oceans 2025",
+        "title": "IEEE OCEANS 2025 Brest",
+        "location": "Brest, France",
+        "flag": "fr",
+        "cfp": "31 September 2024 (TBA)",
+        "date": "June 16-19, 2025",
+        "link": "https://ieeeoes.org/events/oceans-2025-brest/"
     },{
         "hindex": 58,
         "abbrev": "ICPR 2024",
@@ -134,15 +152,6 @@ conferences = [{
         "date": "June 10-17, 2025",
         "link": "https://cvpr.thecvf.com"
     },{
-        "hindex": "/",
-        "abbrev": "Oceans 2024",
-        "title": "IEEE OCEANS 2024 Singapore",
-        "location": "Singapore, Singapore",
-        "flag": "sg",
-        "cfp": "31 October 2023",
-        "date": "April 14-18, 2024",
-        "link": "https://singapore24.oceansconference.org"
-    },{
         "hindex": 303,
         "abbrev": "ICLR 2024",
         "title": "International Conference on Learning Representations",
@@ -151,15 +160,6 @@ conferences = [{
         "cfp": "23 September 2023",
         "date": "May 07-10, 2024",
         "link": "https://iclr.cc/Conferences/2024"
-    },{
-        "hindex": 119,
-        "abbrev": "ICRA 2024",
-        "title": "IEEE Conference on Robotics and Automation",
-        "location": "Yokohama, Japan",
-        "flag": "jp",
-        "cfp": "15 September 2023",
-        "date": "May 13-17, 2024",
-        "link": "https://2024.ieee-icra.org"
     },{
         "hindex": 119,
         "abbrev": "ICRA 2025",
@@ -171,49 +171,31 @@ conferences = [{
         "link": "https://2024.ieee-icra.org"
     },{
         "hindex": 123,
-        "abbrev": "ICASSP 2024",
-        "title": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
-        "location": "Seoul, Korea",
-        "flag": "kr",
-        "cfp": "13 September 2023",
-        "date": "April 14-19, 2024",
-        "link": "https://2024.ieeeicassp.org"
-    },{
-        "hindex": 123,
         "abbrev": "ICASSP 2025",
         "title": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
         "location": "Hyderabad, India",
         "flag": "in",
-        "cfp": "13 September 2024 (TBA)",
+        "cfp": "28 August 2024",
         "date": "April 06-11, 2025",
-        "link": "https://2025.ieeeicassp.org"
-    },{
-        "hindex": 123,
-        "abbrev": "ICASSP 2025",
-        "title": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
-        "location": "Hyderabad, India",
-        "flag": "in",
-        "cfp": "13 September 2024 (TBA)",
-        "date": "April 06-11, 2025",
-        "link": "https://2025.ieeeicassp.org"
+        "link": "https://2025.ieeeicassp.org/"
     },{
         "hindex": 95,
         "abbrev": "WACV 2025",
         "title": "IEEE/CVF Winter Conference on Applications of Computer Vision",
         "location": "Tucson, USA",
         "flag": "us",
-        "cfp": "28 June 2024 (TBA)",
+        "cfp": "15 July 2024",
         "date": "February 28-04, 2025",
-        "link": "https://wacv2024.thecvf.com/"
+        "link": "https://wacv2025.thecvf.com/"
     },{
         "hindex": 76,
         "abbrev": "CoRL 2024",
         "title": "Conference on Robot Learning",
         "location": "Munich, Germany",
         "flag": "de",
-        "cfp": "8 June 2024 (TBA)",
-        "date": "November 6-9, 2024 (TBA)",
-        "link": "https://www.corl2023.org/"
+        "cfp": "6 June 2024",
+        "date": "November 6-9, 2024",
+        "link": "https://www.corl.org/"
     },{
         "hindex": "/",
         "abbrev": "AUV 2024",
@@ -243,13 +225,22 @@ conferences = [{
         "link": ""
     },{
         "hindex": "/",
+        "abbrev": "IEEE USYS 2024",
+        "title": "IEEE 10th International Conference on Underwater System Technology: Theory and Applications",
+        "location": "Xi'an, China",
+        "flag": "cn",
+        "cfp": "30 October 2024",
+        "date": "October 18-20, 2024",
+        "link": ""
+    },{
+        "hindex": "/",
         "abbrev": "SIGGRAPH Asia 2024",
         "title": "ACM SIGGRAPH",
         "location": "Tokyo, Japan",
         "flag": "jp",
-        "cfp": "24 May 2024 (TBA)",
+        "cfp": "12 May 2024",
         "date": "December 3-6, 2024",
-        "link": "https://asia.siggraph.org/2023/about-the-event/siggraph-asia-2024/"
+        "link": "https://asia.siggraph.org/2024/"
     },{
         "hindex": "/",
         "abbrev": "SIGGRAPH 2024",
