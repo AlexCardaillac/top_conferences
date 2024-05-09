@@ -5,6 +5,7 @@
 ### Information
 * Last update: May 9, 2024
 * Maintained by [Alexandre Cardaillac](https://www.sydney.edu.au/engineering/about/our-people/academic-staff/alexandre-cardaillac.html)
-* All the H-Index values are extracted from [Google Scholar](https://scholar.google.com/citations?view_op=top_venues&hl=en)
+* All the H5-Index values are extracted from [Google Scholar](https://scholar.google.com/citations?view_op=top_venues&hl=en)
+* All the Cites/Doc. values are extracted from [Scimago](https://www.scimagojr.com/) 2023 database
 * This website is inspired from [this page](https://jackietseng.github.io/conference_call_for_paper/conferences.html)
 * Source code available on [GitHub](https://github.com/AlexCardaillac/top_conferences)
