@@ -192,6 +192,7 @@ function updateDate(td, targetDate) {
         td.innerText = td.innerText + ' (' + days.toString() + ')'
     }
 }
+
 function verifyDates() {
     document.querySelectorAll('tr').forEach(function(item) {
         let tds = item.querySelectorAll('td'),
@@ -213,6 +214,37 @@ function verifyDates() {
         }
         catch(e){}
     });
+}
+
+let display_past = true;
+let display_hindex = true;
+
+function toggleOptions() {
+    document.querySelectorAll('tr').forEach(function(item) {
+        if (!item.querySelectorAll('td').length) return;
+        let td_deadline = item.querySelectorAll('td')[3];
+        try {
+            let opt1 = !display_past && Date.parse(td_deadline.innerText) < Date.now();
+            let opt2 = !display_hindex && !(parseInt(item.querySelectorAll('td')[0].innerText) > 0);
+            if (opt1 || opt2) {
+                item.style.display = "none";
+            }
+            else {
+                item.style.display = "table-row";
+            }
+        }
+        catch(e){}
+    });
+}
+
+function toggleWithIndex() {
+    display_hindex = !display_hindex;
+    toggleOptions();
+}
+
+function togglePastDeadlines() {
+    display_past = !display_past;
+    toggleOptions();
 }
 
 var is_conf_page = true;
