@@ -168,10 +168,37 @@ function sortTime(is_conf) {
     }
 }
 
+let n_toggle = false;
+function sortName() {
+    let table = document.getElementsByTagName("table")[0];
+    let tbody = table.tBodies[0];
+    let rows = tbody.getElementsByTagName("tr");
+    rows = Array.prototype.slice.call(rows, 0);
+
+    rows.sort(function(x,y){
+        const nx = x.querySelectorAll('td')[1].innerText.toUpperCase();
+        const ny = y.querySelectorAll('td')[1].innerText.toUpperCase();
+        toggle = n_toggle ? -1 : 1;
+        if (nx < ny) {
+            return -1 * toggle;
+        }
+        else if (nx > ny) {
+            return 1 * toggle;
+        }
+        return 0;
+
+    });
+    for(let i=0;i<rows.length;i++){
+        tbody.appendChild(rows[i]);
+    }
+    n_toggle = !n_toggle
+}
+
 function onClick(table){
     let tds = table.tHead.querySelectorAll('th');
     tds[0].onclick = () => sortScore(true);
     if (is_conf_page) {
+        tds[1].onclick = () => sortName();
         tds[3].onclick = () => sortTime(false);
         tds[4].onclick = () => sortTime(true);
     } else {
