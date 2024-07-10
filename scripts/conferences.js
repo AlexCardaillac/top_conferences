@@ -1,5 +1,5 @@
 conferences = [{
-        "hindex": 212,
+        "hindex": 220,
         "abbrev": "AAAI 2025",
         "title": "AAAI Conference on Artificial Intelligence",
         "location": "Philadelphia, USA",
@@ -8,16 +8,7 @@ conferences = [{
         "date": "February 25-04, 2025",
         "link": "https://aaai.org/conference/aaai-25/"
     },{
-        "hindex": 60,
-        "abbrev": "ACCV 2024",
-        "title": "Asian Conference on Computer Vision",
-        "location": "Hanoi, Vietnam",
-        "flag": "vi",
-        "cfp": "2 July 2024",
-        "date": "December 08-12, 2024",
-        "link": "https://accv2024.org/"
-    },{
-        "hindex": 77,
+        "hindex": 65,
         "abbrev": "BMVC 2024",
         "title": "British Machine Vision Conference",
         "location": "Glasgow, UK",
@@ -26,7 +17,7 @@ conferences = [{
         "date": "November 25-28, 2024",
         "link": "https://bmvc2024.org/"
     },{
-        "hindex": 309,
+        "hindex": 337,
         "abbrev": "NeurIPS 2024",
         "title": "Conference on Neural Information Processing Systems",
         "location": "Vancouver, Canada",
@@ -35,7 +26,7 @@ conferences = [{
         "date": "December 09-15, 2024",
         "link": "https://nips.cc/Conferences/2024"
     },{
-        "hindex": 309,
+        "hindex": 337,
         "abbrev": "NeurIPS 2025",
         "title": "Conference on Neural Information Processing Systems",
         "location": "San Diego, US",
@@ -71,7 +62,7 @@ conferences = [{
         "date": "June 16-19, 2025",
         "link": "https://ieeeoes.org/events/oceans-2025-brest/"
     },{
-        "hindex": 58,
+        "hindex": 56,
         "abbrev": "ICPR 2024",
         "title": "International Conference on Pattern Recognition",
         "location": "Kolkata, India",
@@ -80,7 +71,7 @@ conferences = [{
         "date": "December 01-05, 2024",
         "link": "https://icpr2024.org"
     },{
-        "hindex": 58,
+        "hindex": 56,
         "abbrev": "ICPR 2026",
         "title": "International Conference on Pattern Recognition",
         "location": "Lyon, France",
@@ -89,7 +80,7 @@ conferences = [{
         "date": "August 16-20, 2026",
         "link": "https://icpr2026.org/"
     },{
-        "hindex": 78,
+        "hindex": 86,
         "abbrev": "IROS 2024",
         "title": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
         "location": "Abu Dhabi, UAE",
@@ -98,7 +89,7 @@ conferences = [{
         "date": "October 14-18, 2024",
         "link": "http://iros2024-abudhabi.org"
     },{
-        "hindex": 78,
+        "hindex": 86,
         "abbrev": "IROS 2025",
         "title": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
         "location": "Hangzhou, China",
@@ -107,7 +98,7 @@ conferences = [{
         "date": "October 19-25, 2025",
         "link": "http://iros2024-abudhabi.org"
     },{
-        "hindex": 238,
+        "hindex": 206,
         "abbrev": "ECCV 2024",
         "title": "European Conference on Computer Vision",
         "location": "Milano, Italy",
@@ -116,7 +107,7 @@ conferences = [{
         "date": "September 29-04, 2024",
         "link": "https://eccv2024.ecva.net"
     },{
-        "hindex": 61,
+        "hindex": 66,
         "abbrev": "ICIP 2024",
         "title": "IEEE International Conference on Image Processing",
         "location": "Abu Dhabi, UAE",
@@ -125,7 +116,7 @@ conferences = [{
         "date": "October 27-30, 2024",
         "link": "https://2024.ieeeicip.org"
     },{
-        "hindex": 61,
+        "hindex": 66,
         "abbrev": "ICIP 2025",
         "title": "IEEE International Conference on Image Processing",
         "location": "Anchorage, US",
@@ -134,7 +125,7 @@ conferences = [{
         "date": "September 14-17, 2025",
         "link": "https://2025.ieeeicip.org/"
     },{
-        "hindex": 61,
+        "hindex": 66,
         "abbrev": "RSS 2024",
         "title": "Robotics: Science and Systems",
         "location": "Delft, Netherlands",
@@ -143,7 +134,7 @@ conferences = [{
         "date": "July 15-19, 2024",
         "link": "https://roboticsconference.org"
     },{
-        "hindex": 254,
+        "hindex": 268,
         "abbrev": "ICML 2024",
         "title": "International Conference on Machine Learning",
         "location": "Vienna, Austria",
@@ -152,7 +143,7 @@ conferences = [{
         "date": "July 21-27, 2024",
         "link": "https://icml.cc/Conferences/2024"
     },{
-        "hindex": 254,
+        "hindex": 268,
         "abbrev": "ICML 2025",
         "title": "International Conference on Machine Learning",
         "location": "Vancouver, Canada",
@@ -161,7 +152,7 @@ conferences = [{
         "date": "July 21-27, 2025 (TBA)",
         "link": "https://icml.cc/Conferences/2024"
     },{
-        "hindex": 133,
+        "hindex": 136,
         "abbrev": "IJCAI 2024",
         "title": "International Joint Conference on Artificial Intelligence",
         "location": "Jeju Island, South Korea",
@@ -170,25 +161,16 @@ conferences = [{
         "date": "August 03-09, 2024",
         "link": "https://ijcai24.org/"
     },{
-        "hindex": 133,
+        "hindex": 136,
         "abbrev": "IJCAI 2025",
         "title": "International Joint Conference on Artificial Intelligence",
         "location": "Montreal, Canada",
         "flag": "ca",
-        "cfp": "17 January 2024 (TBA)",
-        "date": "August 03-09, 2024 (TBA)",
+        "cfp": "17 January 2025 (TBA)",
+        "date": "August 03-09, 2025 (TBA)",
         "link": "https://ijcai24.org/"
     },{
-        "hindex": 422,
-        "abbrev": "CVPR 2024",
-        "title": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
-        "location": "Seattle, USA",
-        "flag": "us",
-        "cfp": "10 November 2023",
-        "date": "June 17-21, 2024",
-        "link": "https://cvpr.thecvf.com"
-    },{
-        "hindex": 422,
+        "hindex": 440,
         "abbrev": "CVPR 2025",
         "title": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "location": "Nashville, USA",
@@ -197,7 +179,7 @@ conferences = [{
         "date": "June 10-17, 2025",
         "link": "https://cvpr.thecvf.com"
     },{
-        "hindex": 228,
+        "hindex": 291,
         "abbrev": "ICCV 2025",
         "title": "IEEE/CVF International Conference on Computer Vision",
         "location": "Honolulu, Hawaii",
@@ -206,7 +188,7 @@ conferences = [{
         "date": "October 19-25, 2025",
         "link": "https://iccv2023.thecvf.com/"
     },{
-        "hindex": 228,
+        "hindex": 291,
         "abbrev": "ICCV 2027",
         "title": "IEEE/CVF International Conference on Computer Vision",
         "location": "Hong Kong, China",
@@ -215,16 +197,16 @@ conferences = [{
         "date": "October 19-25, 2027 (TBA)",
         "link": "https://iccv2023.thecvf.com/"
     },{
-        "hindex": 303,
-        "abbrev": "ICLR 2024",
+        "hindex": 304,
+        "abbrev": "ICLR 2025",
         "title": "International Conference on Learning Representations",
-        "location": "Vienna, Austria",
-        "flag": "at",
-        "cfp": "23 September 2023",
-        "date": "May 07-10, 2024",
-        "link": "https://iclr.cc/Conferences/2024"
+        "location": "Singapore, Singapore",
+        "flag": "sg",
+        "cfp": "23 September 2024 (TBA)",
+        "date": "April 24-28, 2025",
+        "link": "https://iclr.cc/Conferences/2025"
     },{
-        "hindex": 119,
+        "hindex": 122,
         "abbrev": "ICRA 2025",
         "title": "IEEE Conference on Robotics and Automation",
         "location": "Atlanta, USA",
@@ -233,7 +215,7 @@ conferences = [{
         "date": "May 17-23, 2025",
         "link": "https://2025.ieee-icra.org"
     },{
-        "hindex": 119,
+        "hindex": 122,
         "abbrev": "ICRA 2026",
         "title": "IEEE Conference on Robotics and Automation",
         "location": "Vienna, Austria",
@@ -242,7 +224,7 @@ conferences = [{
         "date": "May 17-23, 2026 (TBA)",
         "link": "https://2025.ieee-icra.org"
     },{
-        "hindex": 123,
+        "hindex": 129,
         "abbrev": "ICASSP 2025",
         "title": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
         "location": "Hyderabad, India",
@@ -251,7 +233,7 @@ conferences = [{
         "date": "April 06-11, 2025",
         "link": "https://2025.ieeeicassp.org/"
     },{
-        "hindex": 123,
+        "hindex": 129,
         "abbrev": "ICASSP 2026",
         "title": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
         "location": "Barcelona, Spain",
@@ -260,7 +242,7 @@ conferences = [{
         "date": "May 03-08, 2026",
         "link": "https://signalprocessingsociety.org/blog/icassp-2026-2026-ieee-international-conference-acoustics-speech-and-signal-processing"
     },{
-        "hindex": 95,
+        "hindex": 109,
         "abbrev": "WACV 2025",
         "title": "IEEE/CVF Winter Conference on Applications of Computer Vision",
         "location": "Tucson, USA",
@@ -269,7 +251,7 @@ conferences = [{
         "date": "February 28-04, 2025",
         "link": "https://wacv2025.thecvf.com/"
     },{
-        "hindex": 95,
+        "hindex": 109,
         "abbrev": "WACV 2026",
         "title": "IEEE/CVF Winter Conference on Applications of Computer Vision",
         "location": "Tucson, USA",
@@ -278,7 +260,7 @@ conferences = [{
         "date": "February 28-04, 2026 (TBA)",
         "link": "https://wacv2025.thecvf.com/"
     },{
-        "hindex": 76,
+        "hindex": 88,
         "abbrev": "CoRL 2024",
         "title": "Conference on Robot Learning",
         "location": "Munich, Germany",
@@ -359,7 +341,7 @@ conferences = [{
         "date": "July 28-01, 2025 (TBA)",
         "link": "https://s2024.siggraph.org/"
     },{
-        "hindex": 91,
+        "hindex": 100,
         "abbrev": "AISTATS 2024",
         "title": "International Conference on Artificial Intelligence and Statistics",
         "location": "Valencia, Spain",
@@ -368,7 +350,7 @@ conferences = [{
         "date": "May 02-04, 2024",
         "link": "http://aistats.org/aistats2024/"
     },{
-        "hindex": 84,
+        "hindex": 101,
         "abbrev": "ACM MM 2024",
         "title": "ACM MULTIMEDIA",
         "location": "Melbourne, Australia",
@@ -377,7 +359,7 @@ conferences = [{
         "date": "October 28-01, 2024",
         "link": "https://2024.acmmm.org/"
     },{
-        "hindex": 84,
+        "hindex": 101,
         "abbrev": "ACM MM 2025",
         "title": "ACM MULTIMEDIA",
         "location": "Dublin, Ireland",
