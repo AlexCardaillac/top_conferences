@@ -2,6 +2,9 @@ function generateConfTable(table) {
     let tbody = table.tBodies[0];
     for (let conf of conferences) {
         let row = tbody.insertRow();
+        for (let cat of conf["categories"]) {
+            row.classList.add(cat.replace(/\s/g, ''));
+        }
         let cell = row.insertCell();
         cell.innerText = conf["hindex"];
         cell.scope="row"
@@ -24,6 +27,9 @@ function generateJourTable(table) {
     let tbody = table.tBodies[0];
     for (let conf of journals) {
         let row = tbody.insertRow();
+        for (let cat of conf["categories"]) {
+            row.classList.add(cat.replace(/\s/g, ''));
+        }
         let cell = row.insertCell();
         cell.innerText = conf["hindex"];
         cell.scope="row"
@@ -272,6 +278,18 @@ function toggleWithIndex() {
 function togglePastDeadlines() {
     display_past = !display_past;
     toggleOptions();
+}
+
+function selectCategory(opt) {
+    document.querySelectorAll('tr').forEach(function(item) {
+        if (!item.querySelectorAll('td').length) return;
+        if (opt.value == "All" || item.classList.contains(opt.value)){
+            item.style.display = "table-row";
+        }
+        else {
+            item.style.display = "none";
+        }
+    });
 }
 
 var is_conf_page = true;

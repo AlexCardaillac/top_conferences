@@ -27,6 +27,16 @@
         <div class="alert alert-warning removable-l" role="alert">
             On small screens some information is missing/modified
         </div>
+        <div class="form-check-inline">
+            <label>Category:
+                <select class="form-select" aria-label="Category select" onchange="selectCategory(this)">
+                    <option selected value="All">All</option>
+                    <option value="Robotics">Robotics</option>
+                    <option value="ComputerVision">Computer Vision</option>
+                    <option value="MarineTechnology">Marine Technology</option>
+                </select>
+            </label>
+        </div>
         <table class="table table-striped">
             <thead class="thead-dark">
                 <tr>

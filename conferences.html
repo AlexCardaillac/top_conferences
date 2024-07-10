@@ -28,6 +28,17 @@
             On small screens some information is missing / modified.
         </div>
         <div class="form-check-inline">
+            <label>Category:
+                <select class="form-select" aria-label="Category select" onchange="selectCategory(this)">
+                    <option selected value="All">All</option>
+                    <option value="Robotics">Robotics</option>
+                    <option value="ComputerVision">Computer Vision</option>
+                    <option value="AI/ML">AI / ML</option>
+                    <option value="MarineTechnology">Marine Technology</option>
+                </select>
+            </label>
+        </div>
+        <div class="form-check-inline">
             <label class="form-check-label">
                 <input type="checkbox" class="form-check-input" value="" onclick="togglePastDeadlines()">Hide conferences with past deadlines
             </label>
