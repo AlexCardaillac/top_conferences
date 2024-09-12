@@ -4,7 +4,7 @@ conferences = [{
         "title": "AAAI Conference on Artificial Intelligence",
         "location": "Philadelphia, USA",
         "flag": "us",
-        "cfp": "8 August 2024 (TBA)",
+        "cfp": "7 August 2024",
         "date": "February 25-04, 2025",
         "link": "https://aaai.org/conference/aaai-25/",
         "categories": ["AI / ML"]
@@ -40,16 +40,6 @@ conferences = [{
         "categories": ["AI / ML"]
     },{
         "hindex": "/",
-        "abbrev": "Oceans 2024",
-        "title": "IEEE OCEANS 2024 Halifax",
-        "location": "Halifax, Canada",
-        "flag": "ca",
-        "cfp": "12 April 2024",
-        "date": "September 23-26, 2024",
-        "link": "https://halifax24.oceansconference.org",
-        "categories": ["Marine Technology"]
-    },{
-        "hindex": "/",
         "abbrev": "Oceans 2025",
         "title": "IEEE OCEANS 2025 Great Lakes",
         "location": "Great Lakes, Canada",
@@ -66,7 +56,7 @@ conferences = [{
         "flag": "fr",
         "cfp": "31 September 2024 (TBA)",
         "date": "June 16-19, 2025",
-        "link": "https://ieeeoes.org/events/oceans-2025-brest/",
+        "link": "https://brest25.oceansconference.org/",
         "categories": ["Marine Technology"]
     },{
         "hindex": 56,
@@ -106,7 +96,7 @@ conferences = [{
         "flag": "cn",
         "cfp": "1 March 2025 (TBA)",
         "date": "October 19-25, 2025",
-        "link": "http://iros2024-abudhabi.org",
+        "link": "https://irmv.sjtu.edu.cn/iros2025/",
         "categories": ["Robotics"]
     },{
         "hindex": 206,
@@ -150,16 +140,6 @@ conferences = [{
         "categories": ["Robotics"]
     },{
         "hindex": 268,
-        "abbrev": "ICML 2024",
-        "title": "International Conference on Machine Learning",
-        "location": "Vienna, Austria",
-        "flag": "at",
-        "cfp": "01 February 2024",
-        "date": "July 21-27, 2024",
-        "link": "https://icml.cc/Conferences/2024",
-        "categories": ["AI / ML"]
-    },{
-        "hindex": 268,
         "abbrev": "ICML 2025",
         "title": "International Conference on Machine Learning",
         "location": "Vancouver, Canada",
@@ -167,16 +147,6 @@ conferences = [{
         "cfp": "01 February 2025 (TBA)",
         "date": "July 21-27, 2025 (TBA)",
         "link": "https://icml.cc/Conferences/2024",
-        "categories": ["AI / ML"]
-    },{
-        "hindex": 136,
-        "abbrev": "IJCAI 2024",
-        "title": "International Joint Conference on Artificial Intelligence",
-        "location": "Jeju Island, South Korea",
-        "flag": "kr",
-        "cfp": "17 January 2024",
-        "date": "August 03-09, 2024",
-        "link": "https://ijcai24.org/",
         "categories": ["AI / ML"]
     },{
         "hindex": 136,
@@ -194,7 +164,7 @@ conferences = [{
         "title": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "location": "Nashville, USA",
         "flag": "us",
-        "cfp": "10 November 2024 (TBA)",
+        "cfp": "3 November 2024",
         "date": "June 10-17, 2025",
         "link": "https://cvpr.thecvf.com",
         "categories": ["Computer Vision"]
@@ -224,7 +194,7 @@ conferences = [{
         "title": "International Conference on Learning Representations",
         "location": "Singapore, Singapore",
         "flag": "sg",
-        "cfp": "23 September 2024 (TBA)",
+        "cfp": "27 September 2024",
         "date": "April 24-28, 2025",
         "link": "https://iclr.cc/Conferences/2025",
         "categories": ["AI / ML"]
@@ -322,11 +292,11 @@ conferences = [{
         "hindex": "/",
         "abbrev": "UT25",
         "title": "International Symposium on Underwater Technology",
-        "location": "",
-        "flag": "us",
-        "cfp": "1 September 2024 (TBA)",
-        "date": "March 6-9, 2025 (TBA)",
-        "link": "",
+        "location": "Taipei, Taiwan",
+        "flag": "tw",
+        "cfp": "10 September 2024",
+        "date": "March 2-5, 2025",
+        "link": "https://ut2025.org/",
         "categories": ["Marine Technology"]
     },{
         "hindex": "/",
@@ -355,18 +325,8 @@ conferences = [{
         "location": "Hong Kong, China",
         "flag": "hk",
         "cfp": "12 May 2025 (TBA)",
-        "date": "December 3-6, 2025 (TBA)",
-        "link": "https://asia.siggraph.org/2024/",
-        "categories": ["Computer Vision"]
-    },{
-        "hindex": "/",
-        "abbrev": "SIGGRAPH 2024",
-        "title": "ACM SIGGRAPH",
-        "location": "Denver, USA",
-        "flag": "us",
-        "cfp": "25 January 2024",
-        "date": "July 28-01, 2024",
-        "link": "https://s2024.siggraph.org/",
+        "date": "December 15-19, 2025",
+        "link": "https://asia.siggraph.org/2025/",
         "categories": ["Computer Vision"]
     },{
         "hindex": "/",
@@ -375,17 +335,17 @@ conferences = [{
         "location": "Vancouver, Canada",
         "flag": "ca",
         "cfp": "25 January 2025 (TBA)",
-        "date": "July 28-01, 2025 (TBA)",
-        "link": "https://s2024.siggraph.org/",
+        "date": "August 10-14, 2025",
+        "link": "https://s2025.siggraph.org/",
         "categories": ["Computer Vision"]
     },{
         "hindex": 100,
-        "abbrev": "AISTATS 2024",
+        "abbrev": "AISTATS 2025",
         "title": "International Conference on Artificial Intelligence and Statistics",
-        "location": "Valencia, Spain",
-        "flag": "es",
-        "cfp": "16 October 2023",
-        "date": "May 02-04, 2024",
+        "location": "Mai Khao, Thailand",
+        "flag": "th",
+        "cfp": "03 October 2024",
+        "date": "May 03-05, 2025",
         "link": "http://aistats.org/aistats2024/",
         "categories": ["AI / ML"]
     },{
