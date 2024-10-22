@@ -80,16 +80,6 @@ conferences = [{
         "categories": ["Computer Vision"]
     },{
         "hindex": 86,
-        "abbrev": "IROS 2024",
-        "title": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
-        "location": "Abu Dhabi, UAE",
-        "flag": "ae",
-        "cfp": "1 March 2024",
-        "date": "October 14-18, 2024",
-        "link": "http://iros2024-abudhabi.org",
-        "categories": ["Robotics"]
-    },{
-        "hindex": 86,
         "abbrev": "IROS 2025",
         "title": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
         "location": "Hangzhou, China",
@@ -100,13 +90,13 @@ conferences = [{
         "categories": ["Robotics"]
     },{
         "hindex": 206,
-        "abbrev": "ECCV 2024",
+        "abbrev": "ECCV 2026",
         "title": "European Conference on Computer Vision",
-        "location": "Milano, Italy",
-        "flag": "it",
-        "cfp": "29 February 2024",
-        "date": "September 29-04, 2024",
-        "link": "https://eccv2024.ecva.net",
+        "location": "Malmö, Sweden",
+        "flag": "se",
+        "cfp": "6 March 2026 (TBD)",
+        "date": "September 08-13, 2026",
+        "link": "https://eccv.ecva.net/Conferences/2026",
         "categories": ["Computer Vision"]
     },{
         "hindex": 66,
@@ -130,12 +120,12 @@ conferences = [{
         "categories": ["Computer Vision"]
     },{
         "hindex": 66,
-        "abbrev": "RSS 2024",
+        "abbrev": "RSS 2025",
         "title": "Robotics: Science and Systems",
-        "location": "Delft, Netherlands",
-        "flag": "nl",
-        "cfp": "02 February 2024",
-        "date": "July 15-19, 2024",
+        "location": "Los Angeles, USA",
+        "flag": "us",
+        "cfp": "24 January 2025",
+        "date": "July 21-25, 2025",
         "link": "https://roboticsconference.org",
         "categories": ["Robotics"]
     },{
@@ -144,9 +134,9 @@ conferences = [{
         "title": "International Conference on Machine Learning",
         "location": "Vancouver, Canada",
         "flag": "ca",
-        "cfp": "01 February 2025 (TBA)",
-        "date": "July 21-27, 2025 (TBA)",
-        "link": "https://icml.cc/Conferences/2024",
+        "cfp": "31 January 2025",
+        "date": "July 13-19, 2025",
+        "link": "https://icml.cc/Conferences/2025",
         "categories": ["AI / ML"]
     },{
         "hindex": 136,
@@ -155,8 +145,8 @@ conferences = [{
         "location": "Montreal, Canada",
         "flag": "ca",
         "cfp": "17 January 2025 (TBA)",
-        "date": "August 03-09, 2025 (TBA)",
-        "link": "https://ijcai24.org/",
+        "date": "August 16-22, 2025",
+        "link": "https://2025.ijcai.org/",
         "categories": ["AI / ML"]
     },{
         "hindex": 440,
@@ -270,16 +260,6 @@ conferences = [{
         "categories": ["AI / ML", "Robotics"]
     },{
         "hindex": "/",
-        "abbrev": "AUV 2024",
-        "title": "IEEE Autonomous Underwater Vehicle Symposium",
-        "location": "Boston, USA",
-        "flag": "us",
-        "cfp": "28 April 2024",
-        "date": "September 18-20, 2024",
-        "link": "https://auv2024.sites.northeastern.edu/",
-        "categories": ["Marine Technology"]
-    },{
-        "hindex": "/",
         "abbrev": "MIW 2024",
         "title": "International Marine Imaging Workshops",
         "location": "Monterey, USA",
@@ -297,16 +277,6 @@ conferences = [{
         "cfp": "10 September 2024",
         "date": "March 2-5, 2025",
         "link": "https://ut2025.org/",
-        "categories": ["Marine Technology"]
-    },{
-        "hindex": "/",
-        "abbrev": "IEEE USYS 2024",
-        "title": "IEEE 10th International Conference on Underwater System Technology: Theory and Applications",
-        "location": "Xi'an, China",
-        "flag": "cn",
-        "cfp": "30 October 2024",
-        "date": "October 18-20, 2024",
-        "link": "https://usys2024.com/",
         "categories": ["Marine Technology"]
     },{
         "hindex": "/",
