@@ -44,9 +44,9 @@ conferences = [{
         "title": "IEEE OCEANS 2025 Great Lakes",
         "location": "Great Lakes, Canada",
         "flag": "ca",
-        "cfp": "12 April 2025 (TBA)",
+        "cfp": "30 April 2025",
         "date": "September 29-02, 2025",
-        "link": "https://ieeeoes.org/events/oceans-2025-great-lakes/",
+        "link": "https://greatlakes25.oceansconference.org/",
         "categories": ["Marine Technology"]
     },{
         "hindex": "/",
@@ -54,7 +54,7 @@ conferences = [{
         "title": "IEEE OCEANS 2025 Brest",
         "location": "Brest, France",
         "flag": "fr",
-        "cfp": "31 September 2024 (TBA)",
+        "cfp": "20 December 2024",
         "date": "June 16-19, 2025",
         "link": "https://brest25.oceansconference.org/",
         "categories": ["Marine Technology"]
@@ -100,21 +100,11 @@ conferences = [{
         "categories": ["Computer Vision"]
     },{
         "hindex": 66,
-        "abbrev": "ICIP 2024",
-        "title": "IEEE International Conference on Image Processing",
-        "location": "Abu Dhabi, UAE",
-        "flag": "ae",
-        "cfp": "24 February 2024",
-        "date": "October 27-30, 2024",
-        "link": "https://2024.ieeeicip.org",
-        "categories": ["Computer Vision"]
-    },{
-        "hindex": 66,
         "abbrev": "ICIP 2025",
         "title": "IEEE International Conference on Image Processing",
         "location": "Anchorage, US",
         "flag": "us",
-        "cfp": "24 February 2025 (TBA)",
+        "cfp": "22 January 2025",
         "date": "September 14-17, 2025",
         "link": "https://2025.ieeeicip.org/",
         "categories": ["Computer Vision"]
@@ -144,7 +134,7 @@ conferences = [{
         "title": "International Joint Conference on Artificial Intelligence",
         "location": "Montreal, Canada",
         "flag": "ca",
-        "cfp": "17 January 2025 (TBA)",
+        "cfp": "16 January 2025",
         "date": "August 16-22, 2025",
         "link": "https://2025.ijcai.org/",
         "categories": ["AI / ML"]
@@ -260,16 +250,6 @@ conferences = [{
         "categories": ["AI / ML", "Robotics"]
     },{
         "hindex": "/",
-        "abbrev": "MIW 2024",
-        "title": "International Marine Imaging Workshops",
-        "location": "Monterey, USA",
-        "flag": "us",
-        "cfp": "03 June 2024",
-        "date": "October 7-10, 2024",
-        "link": "https://miw2024.org/pages/program.html",
-        "categories": ["Marine Technology"]
-    },{
-        "hindex": "/",
         "abbrev": "UT25",
         "title": "International Symposium on Underwater Technology",
         "location": "Taipei, Taiwan",
@@ -318,16 +298,6 @@ conferences = [{
         "date": "May 03-05, 2025",
         "link": "http://aistats.org/aistats2024/",
         "categories": ["AI / ML"]
-    },{
-        "hindex": 101,
-        "abbrev": "ACM MM 2024",
-        "title": "ACM MULTIMEDIA",
-        "location": "Melbourne, Australia",
-        "flag": "au",
-        "cfp": "8 April 2024",
-        "date": "October 28-01, 2024",
-        "link": "https://2024.acmmm.org/",
-        "categories": []
     },{
         "hindex": 101,
         "abbrev": "ACM MM 2025",
