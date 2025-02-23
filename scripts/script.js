@@ -217,7 +217,7 @@ function updateDate(td, targetDate) {
         td.style.color = 'gray'
         td.style.textDecoration = 'line-through'
     }
-    else if (targetDate - Date.now() < 1000*60*60*24*90) {
+    else if (targetDate - Date.now() < 1000*60*60*24*60) {
         td.style.color = 'red'
         td.style.fontWeight = 'bolder'
         let delta = targetDate - Date.now()
