@@ -249,47 +249,48 @@ function verifyDates() {
     });
 }
 
-let display_past = true;
-let display_hindex = true;
-
-function toggleOptions() {
+function reSortTable() {
     document.querySelectorAll('tr').forEach(function(item) {
         if (!item.querySelectorAll('td').length) return;
+
+        item.style.display = "none";
+        // check category
+        if (category_opt == "All" || item.classList.contains(category_opt)){
+            item.style.display = "table-row";
+        }
+        else return;
+
+        // check options
         let td_deadline = item.querySelectorAll('td')[3];
         try {
             let opt1 = !display_past && Date.parse(td_deadline.innerText) < Date.now();
             let opt2 = !display_hindex && !(parseInt(item.querySelectorAll('td')[0].innerText) > 0);
             if (opt1 || opt2) {
                 item.style.display = "none";
-            }
-            else {
-                item.style.display = "table-row";
+                return;
             }
         }
         catch(e){}
     });
 }
 
+let display_past = true;
+let display_hindex = true;
+let category_opt = "All";
+
 function toggleWithIndex() {
     display_hindex = !display_hindex;
-    toggleOptions();
+    reSortTable();
 }
 
 function togglePastDeadlines() {
     display_past = !display_past;
-    toggleOptions();
+    reSortTable();
 }
 
 function selectCategory(opt) {
-    document.querySelectorAll('tr').forEach(function(item) {
-        if (!item.querySelectorAll('td').length) return;
-        if (opt.value == "All" || item.classList.contains(opt.value)){
-            item.style.display = "table-row";
-        }
-        else {
-            item.style.display = "none";
-        }
-    });
+    category_opt = opt.value;
+    reSortTable();
 }
 
 var is_conf_page = true;
