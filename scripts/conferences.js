@@ -4,7 +4,7 @@ conferences = [{
         "title": "AAAI Conference on Artificial Intelligence",
         "location": "Singapore, Singapore",
         "flag": "sg",
-        "cfp": "7 August 2024 (TBA)",
+        "cfp": "7 July 2024",
         "date": "February 20-27, 2026",
         "link": "https://aaai.org/conference/aaai-26/",
         "categories": ["AI / ML"]
@@ -14,9 +14,9 @@ conferences = [{
         "title": "British Machine Vision Conference",
         "location": "Sheffield, UK",
         "flag": "uk",
-        "cfp": "10 May 2025 (TBA)",
-        "date": "November 25-28, 2025 (TBA)",
-        "link": "https://www.bmva.org/bmvc",
+        "cfp": "16 May 2025",
+        "date": "November 24-27, 2025",
+        "link": "https://bmvc2025.bmva.org/",
         "categories": ["Computer Vision"]
     },{
         "hindex": 337,
@@ -24,8 +24,8 @@ conferences = [{
         "title": "Conference on Neural Information Processing Systems",
         "location": "San Diego, US",
         "flag": "us",
-        "cfp": "15 May 2025 (TBA)",
-        "date": "December 09-15, 2025 (TBA)",
+        "cfp": "15 May 2025",
+        "date": "December 02-07, 2025",
         "link": "https://nips.cc/Conferences/2025",
         "categories": ["AI / ML"]
     },{
@@ -55,7 +55,7 @@ conferences = [{
         "location": "Lyon, France",
         "flag": "fr",
         "cfp": "31 December 2025 (TBA)",
-        "date": "August 16-20, 2026",
+        "date": "August 17-21, 2026",
         "link": "https://icpr2026.org/",
         "categories": ["Computer Vision"]
     },{
@@ -74,7 +74,7 @@ conferences = [{
         "title": "European Conference on Computer Vision",
         "location": "Malmö, Sweden",
         "flag": "se",
-        "cfp": "6 March 2026 (TBD)",
+        "cfp": "6 March 2026",
         "date": "September 08-13, 2026",
         "link": "https://eccv.ecva.net/Conferences/2026",
         "categories": ["Computer Vision"]
@@ -176,27 +176,37 @@ conferences = [{
         "flag": "at",
         "cfp": "15 September 2025 (TBA)",
         "date": "May 17-23, 2026 (TBA)",
-        "link": "https://2025.ieee-icra.org",
+        "link": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra",
         "categories": ["Robotics"]
     },{
-        "hindex": 129,
-        "abbrev": "ICASSP 2025",
-        "title": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
-        "location": "Hyderabad, India",
-        "flag": "in",
-        "cfp": "28 August 2024",
-        "date": "April 06-11, 2025",
-        "link": "https://2025.ieeeicassp.org/",
-        "categories": []
+        "hindex": 122,
+        "abbrev": "ICRA 2027",
+        "title": "IEEE Conference on Robotics and Automation",
+        "location": "Seoul, South Korea",
+        "flag": "kr",
+        "cfp": "15 September 2026 (TBA)",
+        "date": "May 17-23, 2027 (TBA)",
+        "link": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra",
+        "categories": ["Robotics"]
     },{
         "hindex": 129,
         "abbrev": "ICASSP 2026",
         "title": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
         "location": "Barcelona, Spain",
         "flag": "es",
-        "cfp": "28 August 2025 (TBA)",
+        "cfp": "17 September 2025",
         "date": "May 03-08, 2026",
-        "link": "https://signalprocessingsociety.org/blog/icassp-2026-2026-ieee-international-conference-acoustics-speech-and-signal-processing",
+        "link": "https://2026.ieeeicassp.org/",
+        "categories": []
+    },{
+        "hindex": 129,
+        "abbrev": "ICASSP 2027",
+        "title": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+        "location": "Toronto, Canada",
+        "flag": "ca",
+        "cfp": "17 September 2026 (TBA)",
+        "date": "May 16-21, 2027",
+        "link": "https://2027.ieeeicassp.org/",
         "categories": []
     },{
         "hindex": 109,
