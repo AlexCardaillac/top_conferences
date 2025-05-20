@@ -49,6 +49,36 @@ conferences = [{
         "link": "https://brest25.oceansconference.org/",
         "categories": ["Marine Technology"]
     },{
+        "hindex": "/",
+        "abbrev": "Oceans 2026",
+        "title": "IEEE OCEANS 2026 Sanya",
+        "location": "Sanya, China",
+        "flag": "cn",
+        "cfp": "20 December 2024 (TBA)",
+        "date": "May 25-28, 2025",
+        "link": "https://oceansconference.org/planning/future-conferences/",
+        "categories": ["Marine Technology"]
+    },{
+        "hindex": "/",
+        "abbrev": "AUV 2026",
+        "title": "IEEE OES AUV Symposium ",
+        "location": "Southampton, UK",
+        "flag": "uk",
+        "cfp": "01 February 2026",
+        "date": "September 01-03, 2026",
+        "link": "https://www.auv2026-southampton.com/",
+        "categories": ["Marine Technology"]
+    },{
+        "hindex": "/",
+        "abbrev": "CAMS 2025",
+        "title": "IFAC Conference on Control Applications in Marine Systems, Robotics and Vehicles 2025",
+        "location": "Wuhan, China",
+        "flag": "cn",
+        "cfp": "21 April 2025",
+        "date": "August 25-28, 2025",
+        "link": "https://conferences.ifac-control.org/cams2025/",
+        "categories": ["Marine Technology"]
+    },{
         "hindex": 56,
         "abbrev": "ICPR 2026",
         "title": "International Conference on Pattern Recognition",
@@ -58,6 +88,16 @@ conferences = [{
         "date": "August 17-21, 2026",
         "link": "https://icpr2026.org/",
         "categories": ["Computer Vision"]
+    },{
+        "hindex": "/",
+        "abbrev": "IAS 19",
+        "title": "19th International Conference on Intelligent Autonomous Systems",
+        "location": "Genoa, Italy",
+        "flag": "it",
+        "cfp": "07 March 2025",
+        "date": "June 30-04, 2025",
+        "link": "https://ias-19.org/",
+        "categories": ["Robotics"]
     },{
         "hindex": 86,
         "abbrev": "IROS 2025",
