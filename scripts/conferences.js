@@ -4,7 +4,7 @@ conferences = [{
         "title": "AAAI Conference on Artificial Intelligence",
         "location": "Singapore, Singapore",
         "flag": "sg",
-        "cfp": "7 July 2024",
+        "cfp": "25 July 2025",
         "date": "February 20-27, 2026",
         "link": "https://aaai.org/conference/aaai-26/",
         "categories": ["AI / ML"]
@@ -30,33 +30,23 @@ conferences = [{
         "categories": ["AI / ML"]
     },{
         "hindex": "/",
-        "abbrev": "Oceans 2025",
-        "title": "IEEE OCEANS 2025 Great Lakes",
-        "location": "Great Lakes, Canada",
-        "flag": "ca",
-        "cfp": "30 April 2025",
-        "date": "September 29-02, 2025",
-        "link": "https://greatlakes25.oceansconference.org/",
-        "categories": ["Marine Technology"]
-    },{
-        "hindex": "/",
-        "abbrev": "Oceans 2025",
-        "title": "IEEE OCEANS 2025 Brest",
-        "location": "Brest, France",
-        "flag": "fr",
-        "cfp": "20 December 2024",
-        "date": "June 16-19, 2025",
-        "link": "https://brest25.oceansconference.org/",
-        "categories": ["Marine Technology"]
-    },{
-        "hindex": "/",
         "abbrev": "Oceans 2026",
         "title": "IEEE OCEANS 2026 Sanya",
         "location": "Sanya, China",
         "flag": "cn",
-        "cfp": "20 December 2024 (TBA)",
-        "date": "May 25-28, 2025",
-        "link": "https://oceansconference.org/planning/future-conferences/",
+        "cfp": "22 December 2025",
+        "date": "May 25-28, 2026",
+        "link": "https://sanya26.oceansconference.org/",
+        "categories": ["Marine Technology"]
+    },{
+        "hindex": "/",
+        "abbrev": "Oceans 2026",
+        "title": "IEEE OCEANS 2026 Monterey",
+        "location": "Monterey, US",
+        "flag": "us",
+        "cfp": "30 April 2026 (TBA)",
+        "date": "September 21-24, 2026",
+        "link": "https://sanya26.oceansconference.org/",
         "categories": ["Marine Technology"]
     },{
         "hindex": "/",
@@ -84,7 +74,7 @@ conferences = [{
         "title": "International Conference on Pattern Recognition",
         "location": "Lyon, France",
         "flag": "fr",
-        "cfp": "31 December 2025 (TBA)",
+        "cfp": "20 December 2025",
         "date": "August 17-21, 2026",
         "link": "https://icpr2026.org/",
         "categories": ["Computer Vision"]
@@ -100,12 +90,12 @@ conferences = [{
         "categories": ["Robotics"]
     },{
         "hindex": 86,
-        "abbrev": "IROS 2025",
+        "abbrev": "IROS 2026",
         "title": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
-        "location": "Hangzhou, China",
-        "flag": "cn",
-        "cfp": "1 March 2025",
-        "date": "October 19-25, 2025",
+        "location": "Pittsburgh, US",
+        "flag": "us",
+        "cfp": "1 March 2026 (TBA)",
+        "date": "October 19-25, 2026 (TBA)",
         "link": "http://www.iros25.org/",
         "categories": ["Robotics"]
     },{
@@ -120,63 +110,53 @@ conferences = [{
         "categories": ["Computer Vision"]
     },{
         "hindex": 66,
-        "abbrev": "ICIP 2025",
+        "abbrev": "ICIP 2026",
         "title": "IEEE International Conference on Image Processing",
-        "location": "Anchorage, US",
-        "flag": "us",
-        "cfp": "22 January 2025",
-        "date": "September 14-17, 2025",
-        "link": "https://2025.ieeeicip.org/",
+        "location": "Tampere, Finland",
+        "flag": "fi",
+        "cfp": "21 January 2026",
+        "date": "September 13-17, 2026",
+        "link": "https://2026.ieeeicip.org/",
         "categories": ["Computer Vision"]
     },{
         "hindex": 66,
-        "abbrev": "RSS 2025",
+        "abbrev": "RSS 2026",
         "title": "Robotics: Science and Systems",
-        "location": "Los Angeles, USA",
-        "flag": "us",
-        "cfp": "24 January 2025",
-        "date": "July 21-25, 2025",
+        "location": "Sydney, Australia",
+        "flag": "au",
+        "cfp": "24 January 2026 (TBA)",
+        "date": "July 13-17, 2026",
         "link": "https://roboticsconference.org",
         "categories": ["Robotics"]
     },{
         "hindex": 268,
-        "abbrev": "ICML 2025",
+        "abbrev": "ICML 2026",
         "title": "International Conference on Machine Learning",
         "location": "Vancouver, Canada",
         "flag": "ca",
-        "cfp": "31 January 2025",
-        "date": "July 13-19, 2025",
-        "link": "https://icml.cc/Conferences/2025",
+        "cfp": "23 January 2026",
+        "date": "July 6-12, 2026",
+        "link": "https://icml.cc/Conferences/2026",
         "categories": ["AI / ML"]
     },{
         "hindex": 136,
-        "abbrev": "IJCAI 2025",
+        "abbrev": "IJCAI 2026",
         "title": "International Joint Conference on Artificial Intelligence",
-        "location": "Montreal, Canada",
-        "flag": "ca",
-        "cfp": "16 January 2025",
-        "date": "August 16-22, 2025",
-        "link": "https://2025.ijcai.org/",
+        "location": "Bremen, Germany",
+        "flag": "de",
+        "cfp": "12 January 2026",
+        "date": "August 15-21, 2026",
+        "link": "https://2026.ijcai.org/",
         "categories": ["AI / ML"]
     },{
         "hindex": 440,
-        "abbrev": "CVPR 2025",
+        "abbrev": "CVPR 2026",
         "title": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
-        "location": "Nashville, USA",
+        "location": "Denver, USA",
         "flag": "us",
-        "cfp": "3 November 2024",
-        "date": "June 10-17, 2025",
+        "cfp": "13 November 2025",
+        "date": "June 03-07, 2026",
         "link": "https://cvpr.thecvf.com",
-        "categories": ["Computer Vision"]
-    },{
-        "hindex": 291,
-        "abbrev": "ICCV 2025",
-        "title": "IEEE/CVF International Conference on Computer Vision",
-        "location": "Honolulu, Hawaii",
-        "flag": "us",
-        "cfp": "03 March 2025",
-        "date": "October 19-25, 2025",
-        "link": "https://iccv.thecvf.com/Conferences/2025",
         "categories": ["Computer Vision"]
     },{
         "hindex": 291,
@@ -190,33 +170,23 @@ conferences = [{
         "categories": ["Computer Vision"]
     },{
         "hindex": 304,
-        "abbrev": "ICLR 2025",
+        "abbrev": "ICLR 2026",
         "title": "International Conference on Learning Representations",
-        "location": "Singapore, Singapore",
-        "flag": "sg",
-        "cfp": "27 September 2024",
-        "date": "April 24-28, 2025",
-        "link": "https://iclr.cc/Conferences/2025",
+        "location": "Rio de Janeiro, Brazil",
+        "flag": "br",
+        "cfp": "19 September 2025",
+        "date": "April 23-27, 2026",
+        "link": "https://iclr.cc/Conferences/2026",
         "categories": ["AI / ML"]
-    },{
-        "hindex": 122,
-        "abbrev": "ICRA 2025",
-        "title": "IEEE Conference on Robotics and Automation",
-        "location": "Atlanta, USA",
-        "flag": "us",
-        "cfp": "15 September 2024",
-        "date": "May 17-23, 2025",
-        "link": "https://2025.ieee-icra.org",
-        "categories": ["Robotics"]
     },{
         "hindex": 122,
         "abbrev": "ICRA 2026",
         "title": "IEEE Conference on Robotics and Automation",
         "location": "Vienna, Austria",
         "flag": "at",
-        "cfp": "15 September 2025 (TBA)",
-        "date": "May 17-23, 2026 (TBA)",
-        "link": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra",
+        "cfp": "15 September 2025",
+        "date": "June 01-05, 2026",
+        "link": "https://2026.ieee-icra.org/",
         "categories": ["Robotics"]
     },{
         "hindex": 122,
@@ -254,18 +224,18 @@ conferences = [{
         "title": "IEEE/CVF Winter Conference on Applications of Computer Vision",
         "location": "Tucson, USA",
         "flag": "us",
-        "cfp": "15 July 2025 (TBA)",
-        "date": "February 28-04, 2026 (TBA)",
-        "link": "https://wacv2025.thecvf.com/",
+        "cfp": "19 September 2025",
+        "date": "March 06-10, 2026",
+        "link": "https://wacv.thecvf.com/",
         "categories": ["Computer Vision"]
     },{
         "hindex": 88,
         "abbrev": "CoRL 2025",
         "title": "Conference on Robot Learning",
-        "location": "Seoul, Korea",
-        "flag": "kr",
-        "cfp": "23 April 2025",
-        "date": "September 27-30, 2025",
+        "location": "Austin, USA",
+        "flag": "us",
+        "cfp": "23 April 2026 (TBA)",
+        "date": "September 27-30, 2026 (TBA)",
         "link": "https://www.corl.org/",
         "categories": ["AI / ML", "Robotics"]
     },{
@@ -280,22 +250,22 @@ conferences = [{
         "categories": ["Computer Vision"]
     },{
         "hindex": "/",
-        "abbrev": "SIGGRAPH 2025",
+        "abbrev": "SIGGRAPH 2026",
         "title": "ACM SIGGRAPH",
-        "location": "Vancouver, Canada",
-        "flag": "ca",
-        "cfp": "25 January 2025 (TBA)",
-        "date": "August 10-14, 2025",
-        "link": "https://s2025.siggraph.org/",
+        "location": "Los Angeles, USA",
+        "flag": "us",
+        "cfp": "15 January 2026",
+        "date": "July 19-23, 2026",
+        "link": "https://s2026.siggraph.org/",
         "categories": ["Computer Vision"]
     },{
         "hindex": 100,
-        "abbrev": "AISTATS 2025",
+        "abbrev": "AISTATS 2026",
         "title": "International Conference on Artificial Intelligence and Statistics",
-        "location": "Mai Khao, Thailand",
+        "location": "Tangier, Morocco",
         "flag": "th",
-        "cfp": "03 October 2024",
-        "date": "May 03-05, 2025",
+        "cfp": "25 September 2025",
+        "date": "May 02-05, 2026",
         "link": "http://aistats.org/aistats2024/",
         "categories": ["AI / ML"]
     },{

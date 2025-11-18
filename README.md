@@ -3,7 +3,7 @@
 * [Journal Page](https://alexcardaillac.github.io/top_conferences/journals.html)
 
 ### Information
-* Last update: April 24, 2025
+* Last update: November 18, 2025
 * Maintained by [Alexandre Cardaillac](https://www.sydney.edu.au/engineering/about/our-people/academic-staff/alexandre-cardaillac.html)
 * All the H5-Index values are extracted from [Google Scholar](https://scholar.google.com/citations?view_op=top_venues&hl=en) 2024 database
 * All the Cites/Doc. values are extracted from [Scimago](https://www.scimagojr.com/) 2023 database
